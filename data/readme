@@ -1,0 +1,17 @@
+# Data files in the data forlder:
+grouped_reviews.json: it contains all the movie reviews scrapped from Imdb.
+movie_reviews.csv: this contains the dataframe of movies' reviews in structured way. please use it whne reviews are required.
+
+movies.json: it contains the movie meta data without imdb id
+imdb_id_map.json: it contains the movie data with imdb id
+
+ratings.dat: it contains the ratings of the movielens-1M dataset
+filtered_ratings.csv: it contains the sample of ratings of movielens-1M dataset. the samples are selected from the first standard deviation of both movie and users
+
+user.json: it contains the user meta data of the movieLens-1M dataset
+clusters.json: it contains the user-wise movie cluster for session generation
+
+data_access.ipynb: this file has the code snippet of preparing the data from the raw data.
+rating_matrix_filtering.ipynb: this file has the code of sampling the ratings of the movieLens-1M dataset.
+
+
