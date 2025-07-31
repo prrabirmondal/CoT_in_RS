@@ -9,7 +9,7 @@ ratings.dat: it contains the ratings of the movielens-1M dataset
 filtered_ratings.csv: it contains the sample of ratings of movielens-1M dataset. the samples are selected from the first standard deviation of both movie and users
 
 user.json: it contains the user meta data of the movieLens-1M dataset
-clusters.json: it contains the user-wise movie cluster for session generation
+master_cluster_data.json: it contains the user-wise movie cluster for session generation
 
 data_access.ipynb: this file has the code snippet of preparing the data from the raw data.
 rating_matrix_filtering.ipynb: this file has the code of sampling the ratings of the movieLens-1M dataset.
